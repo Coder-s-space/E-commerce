@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1100px;
+    /* use width becoz it helps when someone resize the windows it shrinks and spaces get destroyed 
+     but with these width it wont */
+    width: 95%;
+    margin: 0 auto;
+} 
+
+.logo-h{
+    font-size: 3.5rem ;
+}
+
+.lg-heading{
+    font-size: 2.8rem;
+
+}
+.md-heading{
+    font-size: 2.2rem;
+}
+
+.text-red{
+    color: #e63946;
+}
+.text-white{
+    color: #f4f4f4;
+}
+.text-grey{
+    color: #555555;
+}
+.text-black{
+    color: #333;
+}
+
+.bg-dark{
+    background-color: #034a6d;
+}
+
+.navbar .nav-items{
+    float: right;
+    margin-top: 1rem;
+}
+
+/* .nav-items::before{
+    content: "";
+    clear: both;
+} */
+
+ .navbar .nav-item{
+    display: inline-block;
+    padding: 1rem;
+    /* r       To make all characters upper,lowercase */
+    text-transform: uppercase;
+    position: relative;
+    top: 50%;
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+ /* .navbar a:link,
+ .navbar a:visited
+{
+    color: #f4f4f4;
+} */
