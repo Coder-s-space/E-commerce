@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #131921;
+    width: 100%;
+}
+
+nav div.nav1 div.amazen-logo a img{
+    width: 70px;
+}
+
+nav div.nav1 div.search input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+nav div.nav1 div.country{
+    color: aliceblue;
+}
+
+.nav1{
+    display: inline-block;
+    border: 2px solid darkcyan;  
+}
+
+nav ul{
+    border: 2px solid black;
+    display: inline-block;
+    text-align: center;
+}
+
+nav li{
+    border: 2px solid red;
+    display: inline-block;
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
