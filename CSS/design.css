@@ -24,7 +24,8 @@ header{
 }
 .container{
     max-width: 1140px;
-    margin: 0 auto;
+    border: 2px solid green;
+    margin: 0 auto ;
     padding: 0 15px;
 }
 .row{
@@ -96,4 +97,39 @@ h1{
 }
 span{
     font-size: 6rem;
+}*/
+
+
+a:link,a:visited{
+    color: green;
+    width: 10px;
+    /* border-bottom: 1px solid green; */
+    text-transform: uppercase;
+    /* margin: 1rem; */
+        /* apan organic foods website banate h? ruk 1min ok  */
+}
+
+a:hover{
+    border-bottom: 2px solid orange;
+    /* margin: 1rem; */
+    text-decoration: none;
+    width: 10px;
+    padding-bottom: 0.4rem;
+}
+
+/* a1{
+    text-decoration: none;
+    border-bottom: none;
+} */
+
+/* imp    Created By Rakesh Singh   */
+/* see      😂😂🤣😎😴😯😪 */
+/* fix       */
+/* r         */
+/* w         */
+/* Q         */
+
+#logo1>a:first-child{
+    text-decoration: none;
+    border-bottom: none;
 }
