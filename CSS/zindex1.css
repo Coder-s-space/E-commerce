@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.397), rgba(0, 0, 0, 0.381)), url(chutiyea.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin: 25px;
+}
+
+li{
+    padding: 10px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    border-radius: 10px;
+    column-rule-color: whitesmoke;
+    padding: 5px;
+    color: whitesmoke;
+    transition: 0.5s ease-in-out;
+}
+
+nav ul li a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+
+nav ul li.current a{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+    margin: 15px;
+}
+
+.heading{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading h1{
+    font-size: 90px;
+    color: aliceblue;
+}
+
+.btn1{
+    position: absolute;
+    top: 50%;
+    right: 83%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    background: skyblue;
+    border: 5px solid darkblue;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn2{
+    position: absolute;
+    top: 55%;
+    right: 83%;
+    transform: translate(-50%, -50%);
+    font-size: x-large;
+    text-decoration: none;
+    color: black;
+    background: skyblue;
+    border: 5px solid darkblue;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
