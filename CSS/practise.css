@@ -9,17 +9,17 @@ nav{
     width: 100%;
 }
 
-nav div.nav1 div.amazen-logo a img{
+.nav1 .amazen-logo a img{
     width: 70px;
 }
 
-nav div.nav1 div.search input{
+nav .nav1 .search input{
     width: 100%;
     padding: 10px;
     border: none;
 }
 
-nav div.nav1 div.country{
+nav .nav1 .country{
     color: aliceblue;
 }
 
