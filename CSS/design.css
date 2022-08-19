@@ -1,97 +1,101 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
 }
-body{
-    background-color: #faf9f9;
+body {
+  background-color: #faf9f9;
 }
-h1,p{
-    color: #0d0c0f;
+h1,
+p {
+  color: #0d0c0f;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-a{
-    text-decoration: none;
-    color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
+  text-emphasis: none;
 }
 
 /* main css  */
-header{
-    min-height: 100vh;
+header {
+  min-height: 100vh;
 }
-.container{
-    max-width: 1140px;
-    border: 2px solid green;
-    margin: 0 auto;
-    padding: 0 15px;
+.container {
+  /* max-width: 1140px; */
+  max-width: 100rem;
+  border: 2px solid green;
+  margin: 0 auto;
+  padding: 0 15px;
 }
-.row{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10rem 0;
-    font-weight: bolder;
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10rem 0;
+  font-weight: bolder;
 }
-.col{
-    flex: 1;
+.col {
+  flex: 1;
 }
-.nav-left ul{
-    display: flex;
-    align-items: center;
+.nav-left ul {
+  display: flex;
+  align-items: center;
 }
 
-.nav-left li{
-    margin-right: 2rem;
-    color: #0d0c0f;
-    margin: 2rem ;
-    font-weight: bolder;
+.nav-left li {
+  margin-right: 2rem;
+  color: #0d0c0f;
+  margin: 2rem;
+  font-weight: bolder;
 }
-.logo{
-    color: #50a913 !important;
-    font-weight: 700;
-    font-size: 1.6rem;
+.logo {
+  color: #50a913 !important;
+  font-weight: 700;
+  font-size: 1.6rem;
 }
 .nav-center {
-    display: flex;
-    margin-left: 38rem;
-    margin-top: -5.5rem;
+  display: flex;
+  margin-left: 38rem;
+  margin-top: -5.5rem;
 }
-.nav-right{
-    display: flex;
-    margin-left: 50rem;
-    margin-top: -rem;
-    width: 20rem;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
+.nav-right {
+  display: flex;
+  margin-left: 50rem;
+  margin-top: -rem;
+  width: 20rem;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
 }
-.nav-center i{
-    font-size: 1.2rem;
-    color: #0d0c0f;
-    margin: 2rem;
+.nav-center i {
+  font-size: 1.2rem;
+  color: #0d0c0f;
+  margin: 2rem;
 }
-.Log-in-btn,.Sign-in-btn{
-     display: flex;
-     align-items: center;
-     font-size: 1rem;
-     gap: 8px;
-     height: 38px;
-     padding: 0 1rem;
-     background-color: #faf9f9;
-     outline: none;
-     border: 3px solid #50a913;
-     border-radius: 30px; 
-     color: #50a913;
-     font-weight: 500;
-     cursor: pointer;
+.Log-in-btn,
+.Sign-in-btn {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  gap: 8px;
+  height: 38px;
+  padding: 0 1rem;
+  background-color: #faf9f9;
+  outline: none;
+  border: 3px solid #50a913;
+  border-radius: 30px;
+  color: #50a913;
+  font-weight: 500;
+  cursor: pointer;
 }
-.Sign-in-btn{
-    background-color: #50a913;
-    color: #faf9f9;
-}/*
+.Sign-in-btn {
+  background-color: #50a913;
+  color: #faf9f9;
+} /*
 h1{
     font-weight: bold;
 }
@@ -99,22 +103,22 @@ span{
     font-size: 6rem;
 }*/
 
-
-a:link,a:visited{
-    color: green;
-    width: 10px;
-    /* border-bottom: 1px solid green; */
-    text-transform: uppercase;
-    /* margin: 1rem; */
-        /* apan organic foods website banate h? ruk 1min ok  */
+a:link,
+a:visited {
+  color: green;
+  width: 10px;
+  /* border-bottom: 1px solid green; */
+  text-transform: uppercase;
+  /* margin: 1rem; */
+  /* apan organic foods website banate h? ruk 1min ok  */
 }
 
-a:hover{
-    border-bottom: 2px solid orange;
-    /* margin: 1rem; */
-    text-decoration: none;
-    width: 10px;
-    padding-bottom: 0.4rem;
+a:hover {
+  border-bottom: 2px solid orange;
+  /* margin: 1rem; */
+  text-decoration: none;
+  width: 10px;
+  padding-bottom: 0.4rem;
 }
 
 /* a1{
@@ -129,7 +133,7 @@ a:hover{
 /* w         */
 /* Q         */
 
-#logo1>a:first-child{
-    text-decoration: none;
-    border-bottom: none;
+#logo1 > a:first-child {
+  text-decoration: none;
+  border-bottom: none;
 }
